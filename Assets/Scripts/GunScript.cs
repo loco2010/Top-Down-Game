@@ -6,8 +6,8 @@ public class GunScript : MonoBehaviour
 {
     public int maxAmmo;
     public int currentAmmo;
-
-    public float fireRate;
+    private float lastFireTime;
+    public float fireGap;
     public GameObject bullet;
     // Start is called before the first frame update
     void Start()
@@ -18,13 +18,18 @@ public class GunScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         // shoot when left mouse button is clicked and once a second
         if (Input.GetMouseButton(0)){
+            if (Time.time >= lastFireTime + fireGap){
             Shoot();
+            lastFireTime = Time.time;
+            }
         }
     }
 
     void Shoot(){
-        Instantiate(bullet, transform.position, transform.rotation);
+        Vector3 spawnPosition = transform.position + transform.right * 1f;
+        Instantiate(bullet, spawnPosition, transform.rotation);
     }
 }
