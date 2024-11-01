@@ -127,6 +127,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7654074004099920452, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
   m_PrefabInstance: {fileID: 1295030782}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &88174796 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1944114063171950911, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
+  m_PrefabInstance: {fileID: 1295030782}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88174794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f5af8ed9fb34004b61067d3bb35d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +301,7 @@ PrefabInstance:
     - target: {fileID: 3710480521386332091, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
       propertyPath: wave2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 88174796}
     - target: {fileID: 4683241581864296475, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
       propertyPath: m_Name
       value: Small Room
@@ -338,6 +349,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2064295357530432450, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
+    - {fileID: 3536582754139169124, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
+    - {fileID: 2095067775135696592, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
+    - {fileID: 3313468814917019350, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
+    - {fileID: 6718818230254078827, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3411715553972753004, guid: c62c61a0f913e447d97735666dbccd6b, type: 3}

@@ -156,7 +156,7 @@ MonoBehaviour:
   myRigidBody: {fileID: 5635405444753472561}
   self: {fileID: 1759791549641714416}
   lifeTime: 15
-  canTouchWall: 1
+  canTouchWall: 0
 --- !u!50 &5635405444753472561
 Rigidbody2D:
   serializedVersion: 4

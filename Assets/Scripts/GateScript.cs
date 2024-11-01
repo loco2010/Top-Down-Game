@@ -18,11 +18,12 @@ public class GateScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (wave1.isFinished()){
-            //nextWave();
+        if (wave1.isFinished() && wave2.isFinished()){
+            Destroy(self);
+            /*nextWave();
             if (wave2.isFinished()){
                 Destroy(self);
-            }
+            }*/
         }
 
 

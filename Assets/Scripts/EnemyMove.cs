@@ -16,7 +16,7 @@ public class EnemyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myRigidBody.velocity = transform.up * maxSpeed;
+        
     }
 private void OnCollisionEnter2D(Collision2D other)
 {

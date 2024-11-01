@@ -889,7 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wave1: {fileID: 183197587931176299}
   wave2: {fileID: 1944114063171950911}
-  self: {fileID: 0}
+  self: {fileID: 3411715553972753004}
 --- !u!1 &3820853236983463628
 GameObject:
   m_ObjectHideFlags: 0
